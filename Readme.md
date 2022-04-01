@@ -237,7 +237,7 @@ ORDER BY total_order DESC;
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 4.png" style="width:35%"/>
+<img src="Query Output 4.png" style="width:40%"/>
 
 Dari data di atas didapat bahwa produk kategori S18 dan S24 berkontribusi sekitar 50% dari total order dan 60% dari total penjualan.
 
