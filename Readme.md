@@ -1,6 +1,6 @@
 # **Data Analysis for B2B Retail : Customer Analytics Report**
 
-<img src="B2B.png" style="width:100%"/>
+![B2B](https://user-images.githubusercontent.com/101962147/161251728-ab3a116c-b800-4952-80b4-989c17331f33.png)
 
 <br/>
 
@@ -20,7 +20,7 @@ Dengan asumsi bahwa tahun yang sedang berjalan adalah tahun 2004, adapun hal yan
 
 ## **Dataset Brief**
 
-<img src="Relational Database Diagram.png" style="width:50%"/>
+![Relational Database Diagram](https://user-images.githubusercontent.com/101962147/161251814-0c0e8f27-90b5-4c96-913c-31d0a173b944.png)
 
 Tabel yang akan digunakan pada project kali ini adalah sebagai berikut :
 
@@ -30,7 +30,7 @@ Tabel yang akan digunakan pada project kali ini adalah sebagai berikut :
 SELECT * FROM orders_1 LIMIT 5;
 ```
 
-<img src="Tabel orders_1.png" style="width:100%"/>
+![Tabel orders_1](https://user-images.githubusercontent.com/101962147/161251853-57035468-7eae-46e6-90f7-add6d16c062f.png)
 
 <br/>
 
@@ -40,7 +40,7 @@ SELECT * FROM orders_1 LIMIT 5;
 SELECT * FROM orders_2 LIMIT 5;
 ```
 
-<img src="Tabel orders_2.png" style="width:100%"/>
+![Tabel orders_2](https://user-images.githubusercontent.com/101962147/161251867-236f5119-f168-4463-a37d-3c49faa2a293.png)
 
 <br/>
 
@@ -50,7 +50,7 @@ SELECT * FROM orders_2 LIMIT 5;
 SELECT * FROM Customer LIMIT 5;
 ```
 
-<img src="Tabel Customer.png" style="width:100%"/>
+![Tabel Customer](https://user-images.githubusercontent.com/101962147/161251881-cc09ec57-3931-4199-b1b7-59726cc287bd.png)
 
 <br/>
 
@@ -80,9 +80,9 @@ status = 'Shipped';
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 1Aa.png" style="width:25%"/>
+![Query Output 1Aa](https://user-images.githubusercontent.com/101962147/161251924-46c70def-ee36-47bc-8753-211325a6a87d.png)
 
-<img src="Query Output 1Ab.png" style="width:25%"/>
+![Query Output 1Ab](https://user-images.githubusercontent.com/101962147/161251955-cdf2f0ab-6a60-4437-9924-294216dd6e5d.png)
 
 <br/>
 
@@ -117,7 +117,7 @@ GROUP BY quarter;
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 1B.png" style="width:35%"/>
+![Query Output 1B](https://user-images.githubusercontent.com/101962147/161251976-04173b37-60ce-4bcd-92f3-36012a0fb9d1.png)
 
 Untuk mengetahui pertumbuhan penjualan maka dapat dilakukan dengan menghitung persentase penjualan bulan lalu dengan jumlah penjualan sebelumnya dan selisih pendapatan bulan terakhir dengan pendapatan periode sebelumnya :
 
@@ -156,7 +156,8 @@ GROUP BY quarter;
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 2.png" style="width:30%"/>
+![Query Output 2](https://user-images.githubusercontent.com/101962147/161252403-1373b705-933c-456b-9077-ae7581ad8d19.png)
+
 
 <br/>
 
@@ -192,7 +193,7 @@ GROUP BY quarter;
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 3.png" style="width:30%"/>
+![Query Output 3](https://user-images.githubusercontent.com/101962147/161252422-87ec3bcc-3056-4211-a1eb-d30943ee9b70.png)
 
 
 Untuk mengetahui persentase customer xyz.com yang sudah melakukan transaksi digunakan rumus sebagai berikut :
@@ -237,7 +238,7 @@ ORDER BY total_order DESC;
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 4.png" style="width:40%"/>
+![Query Output 4](https://user-images.githubusercontent.com/101962147/161252438-0859a65b-5651-438f-b324-b939482f9a8b.png)
 
 Dari data di atas didapat bahwa produk kategori S18 dan S24 berkontribusi sekitar 50% dari total order dan 60% dari total penjualan.
 
@@ -263,9 +264,9 @@ WHERE customerID IN
 
 Adapun output yang dihasilkan adalah sebagai berikut :
 
-<img src="Query Output 5A.png" style="width:20%"/>
+![Query Output 5A](https://user-images.githubusercontent.com/101962147/161252461-2116d29d-22de-44d0-8925-55acc46daa14.png)
 
-<img src="Query Output 5B.png" style="width:20%"/>
+![Query Output 5B](https://user-images.githubusercontent.com/101962147/161252483-6371992f-e347-41d1-879e-55d6384d6d99.png)
 
 Didapat bahwa dari 25 customers yang melakukan transaksi di quarter-1, hanya 24% customer saja yang tetap aktif melakukan transaksi kembali di quarter-2.
 
